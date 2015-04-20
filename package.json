@@ -33,7 +33,7 @@
   },
   "dependencies": {
     "vinyl": "~0.4.6",
-    "vinyl-fs": "~0.3.13",
+    "vinyl-fs": "~0.3.13"
   },
   "devDependencies": {
   },
