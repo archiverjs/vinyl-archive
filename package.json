@@ -1,0 +1,43 @@
+{
+  "name": "vinyl-archive",
+  "version": "0.0.1",
+  "description": "vinyl adapter for archives",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://ctalkington@github.com/archiverjs/vinyl-archive.git"
+  },
+  "author": {
+    "name": "Chris Talkington",
+    "url": "http://christalkington.com/"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/archiverjs/vinyl-archive/issues"
+  },
+  "homepage": "https://github.com/archiverjs/vinyl-archive#readme",
+  "keywords": [
+    "vinyl",
+    "adapter",
+    "archive"
+  ],
+  "files": [
+    "lib",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+  "dependencies": {
+    "vinyl": "~0.4.6",
+    "vinyl-fs": "~0.3.13",
+  },
+  "devDependencies": {
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  }
+}
